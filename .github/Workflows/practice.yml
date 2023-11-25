@@ -1,0 +1,10 @@
+name : Run all commands
+on: [push]
+
+jobs:
+  run-shell-command:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo a string
+        run: echo "This is a practice run for the interview"
+        
