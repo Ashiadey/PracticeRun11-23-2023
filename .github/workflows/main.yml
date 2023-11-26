@@ -1,4 +1,4 @@
-name: Zap integration with Github Actions
+name: Zap integration with Github Actions.
 
 on: [push]
 
